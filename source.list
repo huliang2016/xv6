@@ -1,0 +1,11 @@
+########   阿里云镜像源   ###############
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+deb http://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ bullseye-updates main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian/ bullseye-updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ bullseye-backports main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian/ bullseye-backports main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian-security bullseye-security main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian-security bullseye-security main contrib non-free
+########   阿里云镜像源 END  ###############
