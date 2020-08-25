@@ -10,7 +10,7 @@
 docker build -t xv6 .
 ```
 
-* run docker image
+* run docker image(we need to mount xv6-labs-2020)
 ```sh
-docker run --rm -it xv6
+docker run -it -v {path to your xv6-labs-2020}/:/xv6-labs-2020 xv6
 ```
