@@ -5,9 +5,8 @@
 
 #### Getting Started
 ---
-* how to build docker image?
+* how to build docker image
 ```sh
-cd xv6
 docker build -t xv6 .
 ```
 
