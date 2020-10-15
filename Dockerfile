@@ -9,5 +9,5 @@ RUN apt-get -y update
 RUN apt-get install -fy --fix-missing git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
 
 RUN apt-get -y install zsh python3
-RUN alias python=python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
 CMD ["zsh"]
